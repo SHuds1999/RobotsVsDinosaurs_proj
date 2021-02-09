@@ -10,6 +10,8 @@ namespace RobotsVsDinosaurs
     {
         static void Main(string[] args)
         {
+            Weapon myWeapon = new Weapon("Lazer of doom", 50);
+            Weapon otherWeapon = new Weapon("Axe", 15);
         }
     }
 }
